@@ -24,7 +24,7 @@ const data = {
       status:"subscribed",
       merge_fields: {
         FNAME: username,
-        LNAME: TEAM NAME,
+        LNAME: password,
       }
     }
   ]
