@@ -23,7 +23,7 @@ const data = {
       email_address:email,
       status:"subscribed",
       merge_fields: {
-        FNAME: teamname,
+        FNAME: TEAM NAME,
         LNAME: username,
       }
     }
