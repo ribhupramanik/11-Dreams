@@ -37,7 +37,11 @@ const options = {
   auth: "ribhu1:2cff38754c4659c6c5ca072a5c291b46-us17"
 }
 const request = https.request(url,options,function(response) {
-
+if (response.statusCode ===200) {
+  res.sendFile(__dirname + "/success.html");
+} else {
+  res.sendFile(__dirname + "/failure.html");
+}
 
 
 
